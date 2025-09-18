@@ -9,14 +9,3 @@ img{
 p {
     font-family: "EB Garamond", serif;
 }
-
-
-/* Assignment 3 */
-h1, h2 {
-  font-family: "Chewy", system-ui;
-  font-weight: 5;
-}
-
-p, ol, ul, li {
-  font-family: "Nunito", sans-serif;
-}
