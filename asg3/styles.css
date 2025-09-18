@@ -12,3 +12,11 @@ p {
 
 
 <!-- Assignment 3 -->
+h1, h2 {
+  font-family: "Chewy", system-ui;
+  font-weight: 5;
+}
+
+ol, ul, li, p {
+  font-family: "Nunito", sans-serif;
+}
