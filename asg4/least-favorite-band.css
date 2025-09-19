@@ -1,5 +1,10 @@
+html {
+  padding-top: 25px;
+  background-image: url(papyrus.png);
+
 body{
   padding: 25px;
+	
 }
 .title {
 	color: #5C6AC4;
