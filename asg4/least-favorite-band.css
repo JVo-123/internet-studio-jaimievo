@@ -19,3 +19,11 @@ h1, h2 {
 p, ol, ul, table {
   font-family: "Yatra One", system-ui;
 }
+
+table, th, td {
+  border: 1px solid black;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+}
