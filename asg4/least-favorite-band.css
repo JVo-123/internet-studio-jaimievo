@@ -27,3 +27,7 @@ table, th, td {
 table {
   border-collapse: collapse;
 }
+
+#assignment4title {
+	font-size: 15;
+}
