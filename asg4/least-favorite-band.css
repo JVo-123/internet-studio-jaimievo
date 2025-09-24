@@ -16,14 +16,20 @@ h1, h2 {
   font-weight: 5;
 }
 
-p, ol, ul, table {
+p, ol, ul {
   font-family: "Yatra One", system-ui;
 }
 
-table, th, td {
+th, td {
   border: 1px solid black;
   text-align: left;
+  font-weight: 5px;
+  
 }
 table {
   border-collapse: collapse;
+}
+
+.works-table table, .works-table h2{
+  font-family: "Rubik Wet Paint", system-ui;
 }
