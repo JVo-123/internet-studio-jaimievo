@@ -1,13 +1,16 @@
 /* styles.css */
 html {
-  background-image: url(arcadecarpet);
+  background-image: url(arcadecarpet.png);
+  background-color: #B28DFF;
 }
 
 h1, h2 {
   font-family: "Rubik Spray Paint", system-ui;
   font-weight: 1;
+  color: #FCF586;
 }
 
 p, li {
   font-family: "Chewy", system-ui;
+  color: #FCF586;
 }
