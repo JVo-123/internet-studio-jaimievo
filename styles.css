@@ -3,10 +3,11 @@ html {
   background-image: url(arcadecarpet);
 }
 
-h1 h2 {
+h1, h2 {
   font-family: "Rubik Spray Paint", system-ui;
+  font-weight: 1;
 }
 
-p li {
+p, li {
   font-family: "Chewy", system-ui;
 }
