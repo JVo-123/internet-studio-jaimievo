@@ -1,5 +1,12 @@
 /* styles.css */
+html {
+  background-image: url(arcadecarpet);
+}
 
-* {
-	font-family: Arial;
+h1 h2 {
+  font-family: "Rubik Spray Paint", system-ui;
+}
+
+p li {
+  font-family: "Chewy", system-ui;
 }
