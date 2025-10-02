@@ -1,16 +1,21 @@
 /* styles.css */
 html {
-  background-image: url(arcadecarpet.png);
-  background-color: #B28DFF;
+  background-image: url(purpletile.jpg);
 }
 
 h1, h2 {
   font-family: "Rubik Spray Paint", system-ui;
   font-weight: 1;
-  color: #FCF586;
+  color: rgb(240, 204, 0);
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
 
 p, li {
   font-family: "Chewy", system-ui;
-  color: #FCF586;
+  color: rgb(240, 204, 0);
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
 }
