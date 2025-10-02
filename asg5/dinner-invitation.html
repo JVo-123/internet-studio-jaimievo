@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dinner Invitation</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Romanesco&display=swap" rel="stylesheet">
+        <link href="invitestylesheet.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1 id="dinnertitle"><u>Dinner Invitation</u></h1>
+        <div id="guests">
+        <h2><u>Guests</u></h2>
+        <p>My guests are from various dreams I've had.</p>
+        <h3 class="invitees" style="margin-top: 50px">Lonely Bird</h3>
+            <img src="./lonelybird.jpg" width="300px">
+            <p>I stumbled upon an animal sanctuary at school, which is where I met Lonely Bird. And I'm not just calling it that by the way; other students and staff just called it that. I heard about its story of why it's lonely, but I didn't remember anything, so I couldn't write it down. I hope it's made friends since I've seen it, so I'd like to catch up with it.</p>
+        <h3 class="invitees" style="margin-top: 50px">Fire Lady</h3> <!--Alira-->
+            <img src="./alira.jpg" width="300px">
+            <p>After leaving the animal sanctuary, I saw her really distraught at some other staff while they were having a meeting on the track field. She was the school nurse with healing fire powers. I don't know how to describe how the fire felt other than it feeling like waving my hand through slightly warmer than room-temperature smoke from a smoke machine. I remember her being very beautiful, so I want to see her again. I also never got to know her name, so I'd like to know.</p>
+        <h3 class="invitees" style="margin-top: 50px">Fancy Lady</h3> <!--Belladonna-->
+            <img src="./belladonna.png" width="300px">
+            <p>To be honest, my interaction with her was the most vague compared to the others. Her dream was such a blur, I couldn't write anything about it when I woke up. She wasn't from the same dream as Lonely Bird and the Fire Lady, which also makes it too difficult to know what she did exactly. I just remember she had a really cool dress with frilly stuff that stood up and covered the bottom part of her face sometimes. I also remember her being very beautiful and nameless, so I'd like to see her again and learn her name.</p>
+        </div>
+
+        <div id="menu">
+        <h2><u>Menu</u></h2>
+            <ul>
+                <li>Appetizers:</li>
+                    <li style="margin-left: 40px;">Calamari</li>
+                    <li style="margin-left: 40px;">Breadstick</li>
+                    <li style="margin-left: 40px;">Mozzarella Sticks</li>
+                    <li style="margin-left: 40px;">Bird Seed</li>
+                <li style="margin-top: 50px">Main Course:</li>
+                    <li style="margin-left: 40px;">Spaghetti</li>
+                    <li style="margin-left: 40px;">Macaroni & Cheese</li>
+                    <li style="margin-left: 40px;">Vegetable Salad</li>
+                    <li style="margin-left: 40px;">Fruit Salad, yummy yummy</li>
+                    <li style="margin-left: 40px;">Lasagna</li>
+                    <li style="margin-left: 40px;">Sushi</li>
+                    <li style="margin-left: 40px;">Hamburger</li>
+                    <li style="margin-left: 40px;">Pizza</li>
+                    <li style="margin-left: 40px;">Gimbap</li>
+                    <li style="margin-left: 40px;">Bugs</li>
+                <li style="margin-top: 50px">Dessert:</li>
+                    <li style="margin-left: 40px;">Tiramisu</li>
+                    <li style="margin-left: 40px;">Cheesecake</li>
+                    <li style="margin-left: 40px;">Gelato</li>
+                    <li style="margin-left: 40px;">Macarons</li>
+                    <li style="margin-left: 40px;">Waffles</li>
+                    <li style="margin-left: 40px;">Pancakes</li>
+                <li style="margin-top: 50px">Drinks:</li>
+                    <li style="margin-left: 40px;">Lemonade</li>
+                    <li style="margin-left: 40px;">Orange Juice</li>
+                    <li style="margin-left: 40px;">Apple Juice</li>
+                    <li style="margin-left: 40px;">Aloe Vera Drink</li>
+                    <li style="margin-left: 40px;">Chocolate Milk</li>
+                    <li style="margin-left: 40px;">Tea</li>
+                    <li style="margin-left: 40px;">Water</li>
+            </ul>
+        </div>
+
+        <div id="dinner_rsvp">
+        <form name="dinner_rsvp" method="POST" data-netlify=""true>
+            <h1><u>Please Fill This Out!</u></h1>
+            
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"></input>
+            </div>
+
+            <div>
+                <label for="extra_guests">Will you be bringing a guest?</label>
+
+                <label for="Yes" style="margin-left: 30px">Yes</label>
+                <input name="extra_guests" type="radio" value="Yes" id="Yes">
+
+                <label for="No" style="margin-left: 30px">No</label>
+                <input name="extra_guests" type="radio" value="No" id="No">
+            </div>
+
+            <div>
+                <label for="dietary_preferences">Dietary Preferences:</label>
+                <input name="dietary_preferences" type="text" id="dietary_preferences">
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
