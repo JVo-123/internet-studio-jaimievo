@@ -1,0 +1,36 @@
+html {
+  padding-top: 25px;
+  background-image: url(fancycushion.png);
+}
+
+#dinnertitle {
+    text-align: center;
+    color: gold;
+    background-color: maroon;
+    font-family: "Aguafina Script", cursive;
+    font-size: 50px;
+}
+
+div {
+    background-color: white;
+    color: goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+body {
+    font-family: "Romanesco", cursive;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
