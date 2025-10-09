@@ -1,0 +1,65 @@
+html {
+    padding: 50px;
+    background-image: url(images/hat_background.png)
+}
+
+header {
+    background-color: white;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+}
+
+.first-line-indent {
+    text-indent: 3em;
+}
+
+.hat_content {
+    padding-top: 50px;
+}
+
+h1, h2, h3 {
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 1;
+}
+
+p {
+    font-family: "Chewy", system-ui;
+}
+
+#white_hat {
+    background-color: rgba(255, 255, 255, 0.702);
+    border-radius: 20px;
+}
+
+#red_hat {
+    background-color: rgba(255, 184, 184, 0.675);
+    border-radius: 20px;
+}
+
+#black_hat {
+    background-color: rgba(215, 215, 215, 0.572);
+    border-radius: 20px;
+}
+
+#yellow_hat {
+    background-color: rgba(255, 245, 104, 0.329);
+    border-radius: 20px;
+}
+
+#green_hat {
+    background-color: rgba(37, 255, 30, 0.39);
+    border-radius: 20px;
+}
+
+#blue_hat {
+    background-color: rgba(72, 154, 255, 0.373);
+    border-radius: 20px;
+}
+
+#changes {
+    background-color: white;
+    border-radius: 20px;
+}
