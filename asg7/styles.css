@@ -1,0 +1,56 @@
+html {
+    background-image: url(oldpaper_background.jpg);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* adlam-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'ADLaM Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* abhaya-libre-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abhaya-libre-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Abhaya Libre';
+    font-weight: bolder;
+}
+
+body {
+    padding: 20px 50px;
+    border-style: dashed black;
+    color:rgb(55, 24, 11);
+}
+
+h2, h3 {
+    font-family: 'Abhaya Libre';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'ADLaM Display';
+}
+
+figure {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Abhaya Libre';
+    font-weight: bold;
+}
+
+aside {
+    padding-top: 30px;
+}

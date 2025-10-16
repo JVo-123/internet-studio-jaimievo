@@ -1,0 +1,56 @@
+html {
+    background-image: url(asg7_images/Sky-Stars-Pattern.jpg);
+    padding: 20px 50px;
+}
+
+/* adlam-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'ADLaM Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* abhaya-libre-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abhaya-libre-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2, h3, li, p, figure {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1, h2 {
+    font-family: 'Abhaya Libre';
+}
+
+li {
+    font-weight: bold;
+    font-family: 'ADLaM Display';
+    font-size: larger;
+}
+
+#part4 {
+    margin-top: 50px;
+}
+
+figcaption {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: 'ADLaM Display';
+}
+
+p {
+    font-family: 'ADLaM Display';
+}
+
+.first_indent {
+    margin-left: 3em;
+}
