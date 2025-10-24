@@ -1,0 +1,83 @@
+/* averia-libre-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Averia Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/averia-libre-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* averia-serif-libre-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Averia Serif Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/averia-serif-libre-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+html {
+    padding: 20px 50px 20px;
+    background-image: linear-gradient(to bottom, #928cc4, #cac5e1, #f2ebf3);
+
+}
+
+header,h1,h2,h3,h4,h5 {
+    font-family: 'Averia Serif Libre';
+}
+
+li,p,.paragraph {
+    font-family: 'Averia Libre';
+}
+
+caption,small {
+    font-family: 'Averia Libre';
+    display: block;
+    margin-top: 10px;
+}
+
+#colors {
+    display: flex;
+    text-align: justify;
+}
+
+#colors .indigo {
+    background-color: #352784;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Averia Serif Libre';
+    color: azure;
+}
+
+#colors .slate {
+    background-color: #6355B4;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Averia Serif Libre';
+}
+
+#colors .pink {
+    background-color: #FF80D7;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Averia Serif Libre';
+}
+
+#colors .yellow {
+    background-color: #FAE346;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Averia Serif Libre';
+}
+
+#colors .blue {
+    background-color: #68B9EB;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Averia Serif Libre';
+}
