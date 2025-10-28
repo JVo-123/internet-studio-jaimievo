@@ -4,7 +4,7 @@
   font-family: 'Averia Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/averia-libre-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/averia-libre-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* averia-serif-libre-regular - latin */
 @font-face {
@@ -12,7 +12,7 @@
   font-family: 'Averia Serif Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/averia-serif-libre-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/averia-serif-libre-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -106,3 +106,4 @@ caption,small {
     margin: 20px;
     font-family: 'Averia Serif Libre';
 }
+
