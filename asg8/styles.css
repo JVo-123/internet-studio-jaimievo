@@ -4,7 +4,7 @@
   font-family: 'Averia Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/averia-libre-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/averia-libre-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* averia-serif-libre-regular - latin */
 @font-face {
@@ -12,7 +12,7 @@
   font-family: 'Averia Serif Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/averia-serif-libre-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/averia-serif-libre-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
@@ -39,6 +39,31 @@ caption,small {
 #colors {
     display: flex;
     text-align: justify;
+}
+
+#colors h1 {
+    font-size: 3.05em;
+}
+#colors h2 {
+    font-size: 2.44em;
+}
+#colors h3 {
+    font-size: 1.95em;
+}
+#colors h4 {
+    font-size: 1.56em;
+}
+#colors h5 {
+    font-size: 1.25em;
+}
+#colors p {
+    font-size: 1em;
+}
+#colors caption {
+    font-size: 0.8em;
+}
+#colors small {
+    font-size: 0.64em;
 }
 
 #colors .indigo {
@@ -81,4 +106,3 @@ caption,small {
     margin: 20px;
     font-family: 'Averia Serif Libre';
 }
-
