@@ -4,7 +4,7 @@
   font-family: 'ADLaM Display';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* abhaya-libre-regular - latin */
 @font-face {
@@ -12,7 +12,7 @@
   font-family: 'Abhaya Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/abhaya-libre-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/abhaya-libre-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
@@ -36,4 +36,5 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
+
 }
