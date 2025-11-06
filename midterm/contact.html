@@ -3,11 +3,55 @@
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
+        <link href="styles.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body id="contact">
+        <h1>Contact</h1>
+        <nav>
+            <a href="./index.html" class="homepage_nav">Homepage</a>
+            <a href="./activities.html" class="activities_nav">Things to Do</a>
+            <a href="./dining.html" class="dining_nav">Places to Eat</a>
+            <a href="./statement.html" class="statement_nav">Design Statement</a>
+        </nav>
+
         <main>
-            This is where you can contact.
+        <figure>
+            <img src="images/mayor_lewis.png">
+        </figure>
+
+        
+            <ol>
+                <li>Name: <u>Lewis</u></li>
+                <li>Phone #: <u>(123)456-7890</u></li>
+                <li>Email: <u>mayorlewis#stardew.com</u></li>
+            </ol>
         </main>
+        
+        <article>
+            <div id="sdv_comments">
+        <form name="sdv_comments" method="POST" data-netlify="true">
+            <h3><u>Please Fill This Out!</u></h3>
+            
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"></input>
+            </div>
+
+            <div>
+                <label for="dietary_preferences">How to Contact You:</label>
+                <input name="contact_us" type="text" id="contact_us">
+            </div>
+
+            <div>
+                <label for="comments">Feedback/Comments:</label>
+                <input name="comments" type="text" id="comments">
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+        </article>
     </body>
 </html>
