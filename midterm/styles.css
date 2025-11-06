@@ -4,7 +4,7 @@
   font-family: 'ADLaM Display';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/adlam-display-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* abhaya-libre-regular - latin */
 @font-face {
@@ -12,15 +12,25 @@
   font-family: 'Abhaya Libre';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/abhaya-libre-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('/fonts/abhaya-libre-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body {
-    padding: 20px 50px;
+    background-image: linear-gradient(to bottom, #00336A, #63E5E5);
+    padding: 20px 100px;
+    color: #410200;
 }
 
 h1 {
     font-family: 'ADLaM Display';
+    color: #101964;
+    background-image: linear-gradient(to bottom, white,rgb(176, 197, 223));
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#welcome {
+    font-size: 50px;
 }
 
 h2 {
@@ -31,10 +41,269 @@ p {
     font-family: 'Abhaya Libre';
 }
 
+#introduction {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#factoids {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
 nav {
+    font-family: 'ADLaM Display';
+    font-size: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+}
 
+a {
+    color: #4a0805;
+}
+
+nav a:hover {
+    color: #F17377;
+    background-color: #FFFFB5;
+    border: 5px solid #FFA86B;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    transform: rotate(0) scale(1.1);
+}
+
+.homepage_nav {
+    background-color: #FDD787;
+    border: 5px solid #E27A45;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.activities_nav {
+    background-color: #FDD787;
+    border: 5px solid #E27A45;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.dining_nav {
+    background-color: #FDD787;
+    border: 5px solid #E27A45;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.statement_nav {
+    background-color: #FDD787;
+    border: 5px solid #E27A45;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.contact_nav {
+    background-color: #FDD787;
+    border: 5px solid #E27A45;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#stardew_map {
+    font-family: 'ADLaM Display';
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Activities */
+#desert_festival {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1;
+}
+
+#desert_festival img {
+    width: 300px;
+    height: auto;
+}
+
+#desert_festival p {
+    flex: 1;
+}
+
+#sdv_fair {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1;
+}
+
+#sdv_fair img {
+    width: 300px;
+    height: auto;
+}
+
+#sdv_fair p {
+    flex: 1;
+}
+
+#night_market {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1;
+}
+
+#night_market img {
+    width: 300px;
+    height: auto;
+}
+
+#night_market p {
+    flex: 1;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: co;
+}
+
+#desert_festival wrap {
+    align-items: flex-start;
+}
+
+/* Activities */
+#activities section {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: 1;
+}
+
+#activities section img {
+    width: 300px;
+    height: auto;
+}
+
+#activities section p {
+    flex: 1;
+}
+
+/* Dining */
+#dining section {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#dining section img {
+    width: 300px;
+    height: auto;
+}
+
+#dining section p {
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    text-align: left;
+}
+
+/* Statement */
+#statement main {
+    text-indent: 2em;
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#title_screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#title_screen img {
+    max-width: 412px;
+    height: auto;
+}
+
+/* Contact */
+#contact img {
+    width: 250px;
+}
+
+#contact section {
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#contact ol {
+    font-family: 'ADLaM Display';
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+#sdv_comments h3 {
+    font-family: 'ADLaM Display';
+}
+
+#sdv_comments {
+    font-family: 'Abhaya Libre';
+    line-height: 50px;
+    background-color: #F9BF6D;
+    border: 5px solid #CE6D06;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 50px;
 }
