@@ -1,0 +1,93 @@
+/* blaka-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Blaka';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/blaka-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* acme-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/acme-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+    background-image: linear-gradient(to bottom, #4F327A, #2B2633);
+    margin: 3em 5em;
+}
+
+h1, h2, h3 {
+    font-family: 'Blaka';
+    font-weight: lighter;
+    color: #CFC811;
+}
+
+h1 {
+    font-size: 3.05em;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2.44em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.95em;
+}
+
+p, figcaption {
+    font-family: 'Acme';
+    font-size: 1em;
+    color: #CFC811;
+}
+
+#members_section {
+    border: #8F8C2F solid 5px;
+    padding: 1em;
+    margin: 3em;
+}
+
+#members {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 300px;
+}
+
+#members section {
+    max-width: 300px;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    margin-left: 3em;
+}
+
+/*Grid Practice from Codecademy
+#members_title {
+    margin-top: 5em;
+}
+
+#members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1;
+    width: 100%;
+}
+
+img {
+    max-width: 250px;
+}
+
+#members section {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: 1em;
+}
+*/
