@@ -23,17 +23,73 @@
        
 
  Insert all your glorious CSS styles below! */
+/* fanwood-text-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fanwood Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fanwood-text-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* work-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/work-sans-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
  body {
+  background-color: #ffef5c;
   padding: 5em 3em;
  }
 
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
  section {
-  background-color: aqua;
+  background-color: #ffe5b2;
+  border: #E0AE4F solid 1em;
   max-width: 500px;
-  display: grid;
-  grid: 1fr / 1fr / 1fr / 1fr;
-  gap: 1;
-  margin: 1em;
-  padding: 1em;
+  margin: 0 auto;
+  padding: 3em;
+ }
+
+ img {
+  max-width: 300px;
+ }
+
+ h1 {
+  font-family: 'Fanwood Text';
+  font-size: 3.05em;
+  color: #525461;
+ }
+
+ h2 {
+  font-family: 'Fanwood Text';
+  font-size: 2.44em;
+  color: #525461;
+ }
+
+ p,li {
+  font-family: 'Work Sans';
+  font-size: 1em;
+  color: #615F52;
+ }
+
+ .link_labels {
+  color: #4F60E0;
+  border: #E0AE4F dotted .25em;
+  border-radius: 1em;
+  padding: .5em;
+ }
+
+ a:hover .link_labels {
+  background-color: #c2c7ec;
+  font-size: 110%;
+  transition: .5s;
  }
